@@ -1,0 +1,52 @@
+/* NotesPage.css */
+.notes-table {
+  font-family: 'Dancing Script:', cursive;
+  font-size: large;
+}
+
+
+.note-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #181616;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes-table {
+  width: 100%;
+  
+}
+
+.note-line {
+  border-bottom: 2px solid #181616;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date-column {
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.notes-column {
+  border-right: 1px solid #983333; 
+  /* padding-right: 10px; */
+  width: 100%;
+}
+
+.note-row {
+  border-bottom: 3px solid #dd0606;
+}
+
+.card{
+  background-color: antiquewhite
+}
